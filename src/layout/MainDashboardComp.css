@@ -1,0 +1,19 @@
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .social-link {
+    margin: 0 10px; /* Adjust the margin for equal spacing */
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px; /* Space between text and icons */
+  }
+  

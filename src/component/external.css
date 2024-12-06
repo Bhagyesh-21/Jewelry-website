@@ -1,0 +1,172 @@
+/* .home_heading {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #257180;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+} */
+.home_heading, .heading_about, .heading_product, .heading_contact{
+    color: #752225;
+    font-size: 30px;
+    display: grid;
+    justify-content: center;
+    /* background-color: burlywood; */
+}
+
+div#root{
+    background-color: blanchedalmond;
+}
+
+.logo{
+    margin: 20px 47%;
+    transition: 2s;
+    
+}
+
+.logo:hover{
+    transform:rotate(360deg);
+    /* transform: scale(1.1); */
+
+}
+
+.logo-title{
+    font-size: 50px;
+    color: white;
+    transition: 1s;
+        /* font-size: 3rem; */
+        /* background: linear-gradient(135deg, #d4af37, #b8860b, #f5deb3, #d4af37); */
+        /* width: fit-content; */
+         text-shadow: 
+            1px 1px 0px #8b6b02, 
+            -1px -1px 0px #8b6b02,
+            1px -1px 0px #8b6b02,
+            -1px 1px 0px #8b6b02; 
+            /* Creates a border effect */
+}
+
+.logo-title:hover{
+    transform: scale(1.1);
+}
+
+.aboutus{
+    display: flex;
+    background-color: #f6d6ca;
+    border-radius: 60px;
+    box-shadow: 10px 10px 10px #c7c5c5;
+    transition: 1s;
+    border-color: #fbd5d5;
+    border:groove;
+}
+
+.aboutus:hover{
+    /* transition:ease-in 2; */
+    transform: scale(1.02);
+}
+
+/* .about_img{
+    transition: 2s;
+}
+.about_img:hover{
+    transform: scale(1.02);
+} */
+
+.card1{
+    width: fit-content;
+}
+
+.card_h2{
+    text-align: center;
+}
+
+/* .card-header{
+    background-color: #f0e5a8;
+} */
+
+.home_p{
+    /* border: 2px solid #fedcba; */
+    border: 2px solid #243642;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px 40px 15px 40px;
+    background-color: #f6d6ca;
+    width: 80%;
+    /* display: inline-flex; */
+    box-sizing: inherit;
+}
+
+.strong{
+    /* border: 2px solid #243642; */
+    border-radius: 6px;
+    margin: 15px 0.2% 5px;
+    padding: 6px;
+    font-size: 20px;
+    color: #641316;
+    /* background-color: #f6d6ca; */
+}
+
+
+
+.custom-card {
+    margin-right: 15px; /* Adjust the value as needed */
+}
+
+/* To remove the right margin from the last card */
+.custom-card:last-child {
+    margin-right: 0;
+}
+
+/* div.card-body{
+    background-color: cornsilk;
+} */
+
+
+
+
+
+.product-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fa; /* Light background for contrast */
+    display: flex;
+}
+
+
+.product-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 10px;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    text-align: left;
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #007bff; /* Bootstrap primary color */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555; /* Darker text for contrast */
+}
+
+.card-footer {
+    background-color: #fff; /* Match card background */
+    border-top: 1px solid #eaeaea; /* Subtle border */
+    padding: 10px 20px;
+}
+
+.text-muted {
+    color: #6c757d; /* Bootstrap muted color */
+}
